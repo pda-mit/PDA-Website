@@ -66,8 +66,19 @@ git pull upstream master
 git checkout -b '<new-branch-name>'
 ```
 ---
+ 
+## Setup Guidelines
+ 
+ ---
+ 
+ 
+## Run on Localhost
+ 
+
+ 
+ ---
   
-## Editing in the New Branch 
+## Commiting the changes and Making Pull Request 
 
 :one: After Editing files in the new branch Stage your changes
 ```bash
@@ -92,13 +103,4 @@ git push origin '<your_branch_name>'
 :six: Open a <a href="https://github.com/pda-mit/PDA-Website/pulls" title="Create Pull request">Pull Request</a>
 
 ---
-
-  
-
-  
-
- 
-
-
-
 
