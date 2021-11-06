@@ -17,10 +17,14 @@ app.post("/", function(req, res) {
     res.redirect("/");
 });
 
-// About Directory
-app.get("/about", function(req,res) {
-  res.render("about");
+// Login Directory
+app.get("/login", function(req,res) {
+  res.sendFile(__dirname + "/login.html");
 });
+
+app.post("/login", function(req,res) {
+    res.sendFile(__dirname + "/login.html");
+  });
 
 // Setting Up port on Localhost:3000
 app.listen(3000, function() {
