@@ -2,7 +2,7 @@
 Official PDA-MIT Website Building Repo
 Do Star the Repo on top right
 
-## Instructions to setup :arrow_down::computer:
+## Contribution Guidelines :computer:
 
 <details>
 <summary>
@@ -67,18 +67,51 @@ git checkout -b '<new-branch-name>'
 ```
 ---
  
-## Setup Guidelines
- 
- ---
- 
- 
-## Run on Localhost
- 
+## Setup Guidelines ⚙️ 
+
+ ### Installation using NPM and MongoDB 
+
+* Download [Node Js and npm(Node package manager)](https://nodejs.org/en/) (when you install Node, npm also gets installed by default)
+<br/>
+
+* Mongo DB compass which is free and a great software in order to work with MongoDB applications. [Download Mongo DB compass](https://www.mongodb.com/try/download/compass)
+<br/>
+
+* Run this command to install all dependencies for the project.
+```
+npm install
+```
+
+<br/>
 
  
- ---
+* Testing : Run this command on your terminal/ bash to start the Mongo server on port 27017(default).
+```
+mongod
+```
+--- 
+ 
+## Run on Localhost 👨‍💻
+* Run this command to start the project.
+```
+npm start
+```
+
+or
+
+* Run this command to start the project as a developer.
+```
+npm run dev
+```
+<br/>
+
+* Open link to view the website in your browser window if it doesn't open automatically.
+```
+http://localhost:3000/
+```
+---
   
-## Commiting the changes and Making Pull Request 
+## Commiting the changes and Making Pull Request 🚀
 
 :one: After Editing files in the new branch Stage your changes
 ```bash
