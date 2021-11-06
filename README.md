@@ -92,16 +92,10 @@ mongod
 --- 
  
 ## Run on Localhost 👨‍💻
+ 
 * Run this command to start the project.
 ```
-npm start
-```
-
-or
-
-* Run this command to start the project as a developer.
-```
-npm run dev
+node app.js
 ```
 <br/>
 
