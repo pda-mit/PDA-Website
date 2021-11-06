@@ -1,4 +1,6 @@
 # **Contributors**
-<!-- "- [Regno. - Name] (Your Github URL)" -->
-<!-- Add your name inbetween according to your regno decending order i.e higer year to lower year-->
-- [2020508048] (https://github.com/SurendarSingh)
+<!-- "- [Regno-Name](Your Github URL)" -->
+<!-- Add your name in-between according to your regno decending order i.e higer Regno to lower Regno-->
+
+- [2020508048-Surendar](https://github.com/SurendarSingh)
+ 
