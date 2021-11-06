@@ -124,8 +124,9 @@ git status
 git remote -v
 ```
 :five: Push changes to remote
+* Note : During this stage, a sign in pop-up will appear in GitHub requesting for OAuth. Either Sign in using OAuth browser session or create a Personal Access Token to login.
 ```bash
-git push origin '<your_branch_name>'
+git push -u origin '<your_branch_name>'
 ```
 :six: Open a <a href="https://github.com/pda-mit/PDA-Website/pulls" title="Create Pull request">Pull Request</a>
 
