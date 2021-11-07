@@ -55,9 +55,9 @@ git remote add upstream https://github.com/pda-mit/PDA-Website.git
   
 ## Creating a New Branch 🛠
 
-:one: Always keep updating your master branch with the main repository by running the following command on the local master branch.
+:one: Always keep updating your master branch with the main repository by running the following command on the local master branch. Here the default master branch is the main branch.
 ```bash
-git pull upstream master
+git pull upstream main
 ```
 
 :two: Always create a new branch before making any changes. Never ever make any changes directly on the master branch. To create a **new** branch,
