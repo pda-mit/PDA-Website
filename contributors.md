@@ -1,10 +1,13 @@
 # **Contributors**
 
-<!-- "- [Regno-Name](Your Github URL)" -->
+<!-- "- [Regno - Name](Your Github URL)" -->
 <!-- Add your name in-between according to your regno ascending order i.e Lower Regno to Higher Regno-->
 
 - [2019506001 - Aadhitya A](https://github.com/alphaX86)
 - [2019506039 - Jayapritha N](https://github.com/coding-geek21)
+- [2019506067 - Pruthiev A S](https://github.com/PRUTHIEV)
+- [2019506071 - Rajapriya R](https://github.com/RajapriyaRaju)
+- [2019506117 - Yashwanth V ](https://github.com/yashmcc)
 - [2020503025 - Ramanarayan](https://github.com/Ram-Narayan-3414)
 - [2020506020 - Bala Subramaniam N](https://github.com/bala418)
 - [2020506054 - Monica S](https://github.com/Monica0077)
@@ -13,5 +16,5 @@
 - [2020506076 - Sakthivel DS](https://github.com/SakthivelDS)
 - [2020506107 - Vignesh B](https://github.com/vigneshb27)
 - [2020508048 - Surendar](https://github.com/SurendarSingh)
-- [2019506117 - Yashwanth V ](https://github.com/yashmcc)
-- [2019506067 - Pruthiev A S](https://github.com/PRUTHIEV)
+
+
