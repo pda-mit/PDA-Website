@@ -14,3 +14,4 @@
 - [2020506107 - Vignesh B](https://github.com/vigneshb27)
 - [2020508048 - Surendar](https://github.com/SurendarSingh)
 - [2019506117 - Yashwanth V ](https://github.com/yashmcc)
+- [2019506067 - Pruthiev A S](https://github.com/PRUTHIEV)
