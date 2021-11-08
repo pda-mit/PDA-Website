@@ -5,6 +5,7 @@
 
 - [2019506001 - Aadhitya A](https://github.com/alphaX86)
 - [2019506017 - Balasubramanian KN](https://github.com/Balukn11)
+- [2019506022 - Bhuvaneshwari R](https://github.com/Bhuvanaa28)
 - [2019506034 - Harshitha k](https://github.com/Harshitha-246)
 - [2019506039 - Jayapritha N](https://github.com/coding-geek21)
 - [2019506050 - S.Meyyappan](https://github.com/ysmeyyappan)
