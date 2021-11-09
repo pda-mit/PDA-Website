@@ -3,6 +3,7 @@
 <!-- "- [Regno - Name](Your Github URL)" -->
 <!-- Add your name in-between according to your regno ascending order i.e Lower Regno to Higher Regno-->
 
+- [2019505034 - Rakshith S K](https://github.com/Rak28)
 - [2019506001 - Aadhitya A](https://github.com/alphaX86)
 - [2019506017 - Balasubramanian KN](https://github.com/Balukn11)
 - [2019506022 - Bhuvaneshwari R](https://github.com/Bhuvanaa28)
