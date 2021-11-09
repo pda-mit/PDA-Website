@@ -15,6 +15,7 @@
 - [2019506093 - Soumik Rakshit](https://github.com/darkdrago46)
 - [2019506117 - Yashwanth V ](https://github.com/yashmcc)
 - [2020503025 - Ramanarayan](https://github.com/Ram-Narayan-3414)
+- [2020503558 - Vinishaa K R](https://github.com/Vinishaa-ramesh)
 - [2020504512 - Ananditaa H](https://github.com/ananditaa)
 - [2020506020 - Bala Subramaniam N](https://github.com/bala418)
 - [2020506054 - Monica S](https://github.com/Monica0077)
