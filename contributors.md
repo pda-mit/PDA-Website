@@ -14,6 +14,7 @@
 - [2019506071 - Rajapriya R](https://github.com/RajapriyaRaju)
 - [2019506093 - Soumik Rakshit](https://github.com/darkdrago46)
 - [2019506117 - Yashwanth V ](https://github.com/yashmcc)
+- [2020503001 - Aadhith Ujesh](https://github.com/Aadhith-Ujesh)
 - [2020503025 - Ramanarayan](https://github.com/Ram-Narayan-3414)
 - [2020504512 - Ananditaa H](https://github.com/ananditaa)
 - [2020506020 - Bala Subramaniam N](https://github.com/bala418)
