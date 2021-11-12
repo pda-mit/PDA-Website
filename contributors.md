@@ -18,6 +18,7 @@
 - [2020503001 - Aadhith Ujesh](https://github.com/Aadhith-Ujesh)
 - [2020503025 - Ramanarayan](https://github.com/Ram-Narayan-3414)
 - [2020503037 - Vighnesh R V](https://github.com/R-V-Vighnesh)
+- [2020503558 - Vinishaa K R](https://github.com/Vinishaa-ramesh)
 - [2020504512 - Ananditaa H](https://github.com/ananditaa)
 - [2020506020 - Bala Subramaniam N](https://github.com/bala418)
 - [2020506054 - Monica S](https://github.com/Monica0077)
