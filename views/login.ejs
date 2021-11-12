@@ -12,6 +12,16 @@
         
 <div class="container">
     <section id="formHolder">
+      <% if (typeof error !== "undefined") { %>
+         <div class="alert alert-danger" role="alert">
+             <%=error%>
+           </div> 
+       <%}%>
+       <% if (typeof success !== "undefined") { %>
+         <div class="alert alert-success" role="alert">
+             <%=success%>
+           </div> 
+       <%}%>
  
        <div class="row">
  
