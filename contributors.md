@@ -13,6 +13,7 @@
 - [2019506067 - Pruthiev A S](https://github.com/PRUTHIEV)
 - [2019506071 - Rajapriya R](https://github.com/RajapriyaRaju)
 - [2019506093 - Soumik Rakshit](https://github.com/darkdrago46)
+- [2019506105 - Thanuja Varshini R](https://github.com/Thanu0809)
 - [2019506117 - Yashwanth V ](https://github.com/yashmcc)
 - [2020503025 - Ramanarayan](https://github.com/Ram-Narayan-3414)
 - [2020504512 - Ananditaa H](https://github.com/ananditaa)
@@ -23,4 +24,3 @@
 - [2020506076 - Sakthivel DS](https://github.com/SakthivelDS)
 - [2020506107 - Vignesh B](https://github.com/vigneshb27)
 - [2020508048 - Surendar](https://github.com/SurendarSingh)
-- [2019506105 - Thanuja Varshini R](https://github.com/Thanu0809)
