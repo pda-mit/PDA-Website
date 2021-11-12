@@ -126,7 +126,7 @@ $(document).ready(function () {
         .fadeIn()
         .parent(".form-group")
         .addClass("hasError");
-      passConfirm = false;
+      passConfirm = true;
     } else {
       $(".passConfirm")
         .siblings(".error")
@@ -167,8 +167,6 @@ $(document).ready(function () {
 
   // Form submit
   $("form.signup-form").submit(function (event) {
-    event.preventDefault();
-
     if (
       usernameError == true ||
       emailError == true ||
@@ -176,29 +174,11 @@ $(document).ready(function () {
       passConfirm == true ||
       rnoError == true
     ) {
+      event.preventDefault();
+      console.log("Not validated");
       $(".name, .email, .pass, .passConfirm, .rno").blur();
     } else {
-      $(".signup, .login").addClass("switched");
-
-      setTimeout(function () {
-        $(".signup, .login").hide();
-      }, 700);
-      setTimeout(function () {
-        $(".brand").removeClass("col-sm-6");
-        $(".brand").addClass("active");
-      }, 300);
-      setTimeout(function () {
-        $(".heading").addClass("active");
-      }, 600);
-      setTimeout(function () {
-        $(".success-msg p").addClass("active");
-      }, 900);
-      setTimeout(function () {
-        $(".success-msg a").addClass("active");
-      }, 1050);
-      setTimeout(function () {
-        $(".form").hide();
-      }, 700);
+      $("#form-sign-up").submit();
     }
   });
 
