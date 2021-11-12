@@ -1,4 +1,4 @@
-// node_modules
+
 const express               =  require('express'),
       app                   =  express(),
       mongoose              =  require("mongoose"),
@@ -8,20 +8,20 @@ const express               =  require('express'),
       passportLocalMongoose =  require("passport-local-mongoose"),
       User                  =  require("./database"),
       flash                 =  require("connect-flash");
-// Setting Up view engine
+
 app.set("view engine", "ejs");
 app.use(express.static("public"));
-//Connecting database
+
 mongoose.connect("mongodb://localhost/pdaregister");
-//creating session
+
 app.use(require("express-session")({
-    secret:"Any normal Word",       //decode or encode session
+    secret:"Any normal Word",       
     resave: false,          
     saveUninitialized:false    
 }));
 
-passport.serializeUser(User.serializeUser());       //session encoding
-passport.deserializeUser(User.deserializeUser());   //session decoding
+passport.serializeUser(User.serializeUser());       
+passport.deserializeUser(User.deserializeUser());   
 passport.use(new LocalStrategy(User.authenticate()));
 app.set("view engine","ejs");
 app.use(bodyParser.urlencoded(
@@ -30,7 +30,7 @@ app.use(bodyParser.urlencoded(
 app.use(passport.initialize());
 app.use(passport.session())
 
-// Routes
+
 app.get("/", function(req, res) {
     res.render("home");
 });
@@ -75,7 +75,7 @@ function isLoggedIn(req,res,next) {
   }
   res.redirect("/login");
 }
-// Setting Up port on Localhost:3000
+
 app.listen(3000, function() {
     console.log("Server is running on port 3000.");
 });
