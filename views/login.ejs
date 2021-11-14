@@ -1,0 +1,125 @@
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/login.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+    </head>
+    
+    <body>
+        
+<div class="container">
+    <section id="formHolder">
+      <% if (typeof error !== "undefined") { %>
+         <div class="alert alert-danger" role="alert">
+             <%=error%>
+           </div> 
+       <%}%>
+       <% if (typeof success !== "undefined") { %>
+         <div class="alert alert-success" role="alert">
+             <%=success%>
+           </div> 
+       <%}%>
+ 
+       <div class="row">
+ 
+          
+          <div class="col-sm-6 brand ">
+             <a href="/" class="logo">Home</a>
+ 
+             <div class="heading">
+                <h2>PDA</h2>
+                <p>Madras Institute of Technology</p>
+             </div>
+ 
+             <div class="success-msg">
+                <p>Great! You are one of our members now</p>
+                <a href="/" class="profile">Your Profile</a>
+             </div>
+          </div>
+ 
+ 
+          <!-- Form Box -->
+          <div class="col-sm-6 form">
+ 
+             
+ 
+             <!-- Signup Form -->
+             <div class="signup form-peice">
+                <form class="signup-form" action="/register" method="post">
+ 
+                   <div class="form-group">
+                      <label for="name">Full Name</label>
+                      <input type="text" name="name" id="name" class="name">
+                      <span class="error"></span>
+                   </div>
+ 
+                   <div class="form-group">
+                      <label for="email">Email Address</label>
+                      <input type="email" name="email" id="email" class="email">
+                      <span class="error"></span>
+                   </div>
+ 
+                   <div class="form-group">
+                      <label for="phone">Registration Number</label>
+                      <input type="number" name="username" id="phone" class="rno">
+                      <span class="error"></span>
+                   </div>
+ 
+                   <div class="form-group">
+                      <label for="password">Password</label>
+                      <input type="password" name="password" id="password" class="pass">
+                      <span class="error"></span>
+                   </div>
+ 
+                   <div class="form-group">
+                      <label for="passwordCon">Confirm Password</label>
+                      <input type="password" name="cpass" id="passwordCon" class="passConfirm">
+                      <span class="error"></span>
+                   </div>
+ 
+                   <div class="CTA">
+                      <input type="submit" value="Signup Now" id="submit" name="reg">
+                      <a href="#" class="switch">I have an account</a>
+                   </div>
+                </form>
+             </div><!-- End Signup Form -->
+             <!-- Login Form -->
+             <div class="login form-peice switched">
+               <form class="login-form" action="/login" method="post">
+                  <div class="form-group">
+                     <label for="loginemail">Roll Number</label>
+                     <input type="number" name="username" id="loginemail" required>
+                  </div>
+
+                  <div class="form-group">
+                     <label for="loginPassword">Password</label>
+                     <input type="password" name="password" id="loginPassword" required>
+                  </div>
+
+                  <div class="CTA">
+                     <input type="submit" value="Login" name="log">
+                     <a href="/" class="switch">I'm New</a>
+                  </div>
+               </form>
+            </div><!-- End Login Form -->
+
+          </div>
+       </div>
+ 
+    </section>
+ 
+
+ 
+ </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/login.js"></script>
+    
+         
+    </body>
+</html>
+ 
