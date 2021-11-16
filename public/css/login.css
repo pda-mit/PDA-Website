@@ -241,6 +241,19 @@ section#formHolder {
   color: #f95959;
 }
 
+.forgotpass {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  color: #bbbbbb;
+  text-decoration: underline;
+  transition: all 0.3s;
+}
+
+.forgotpass:hover {
+  color: #f95959;
+}
+
 footer {
   text-align: center;
 }
