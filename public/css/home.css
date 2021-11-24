@@ -1,0 +1,74 @@
+html{
+    font-size: 10px;
+}
+
+/* Event Section */
+
+.events-div{
+ background-color:#FFFFFF;
+ margin-top:2.4rem;
+ margin-bottom:2.4rem;
+ font-family: 'Poppins',sans-serif;
+}
+
+.events-title{
+    font-size: 4.4rem;
+    font-weight: 600;
+    margin-bottom:2.4rem;
+}
+
+.events-intro{
+    font-size: 1.6rem;
+    color:#666666;
+    margin-bottom:1.6rem;
+}
+
+.card-title{
+    font-weight: 600;
+    color:black;
+    font-size: 2.4rem;
+}
+
+.card-text{
+    font-weight: 400;
+    color:#666666;
+    font-size :1.6rem;
+    line-height: 2.8rem;
+}
+
+.apply-btn{
+    font-size: 1.6rem;
+    color:white;
+    padding:6px 12px 6px 12px;
+    width:120px;
+    margin-left:5%;
+    border-radius: 20px;
+    background-color: #fd5f00;
+}
+
+.apply-btn:hover{
+    background-color: white;
+    border:1px solid #fd5f00;
+    color:#fd5f00;
+}
+
+.arrow-btn:hover{
+    background-color: white;
+    border:1px solid #fd5f00;
+    color:#fd5f00;
+}
+
+.arrow-btn{
+    background-color: #fd5f00;
+}
+
+.event-details{
+    font-size:1.4rem;
+    color:#666666;
+    font-weight: 600;
+}
+
+.icons{
+    color: #fd5f00;
+    margin-right: 4px;
+}
