@@ -54,9 +54,8 @@ app.get("/forgotpass", function (req, res) {
   res.render("forgotpass");
 });
 app.post("/", function (req, res) {
-  console.log(req.body);
-  createSendMail(req.body.email);
-  res.render("home");
+  //createSendMail(req.body.email);
+  res.render("login");
 });
 app.post("/login", function (req, res, next) {
   const user = new User({
@@ -125,6 +124,10 @@ function isLoggedIn(req, res, next) {
   res.redirect("/login");
 }
 
+/*404 page Error */
+app.use(function (req, res, next) {
+  res.render();
+});
 app.listen(process.env.PORT, function () {
   console.log("Server is running on port 3000.");
 });
