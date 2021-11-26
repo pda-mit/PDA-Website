@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.contact {
+    position: absolute;
+    width: 1440px;
+height: 1024px;
+    background: linear-gradient(180deg, #EC9F05 0%, #FF4E00 100%);
+}
+
+.contact-head {
+    position: absolute;
+width: 376px;
+height: 90px;
+left: 61px;
+top: 48px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+line-height: 90px;
+/* identical to box height */
+
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
+}
+
+.glass-box {
+    position: absolute;
+width: 580px;
+height: 589px;
+left: 61px;
+top: 202px;
+
+background: #C4C4C4;
+opacity: 0.4;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(50px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 100px;
+}
+
+.contact-item-1 {
+    position: absolute;
+width: 371px;
+height: 134px;
+left: 187px;
+top: 277px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 45px;
+
+color: #000000;
+}
+
+.contact-item-2 {
+    position: absolute;
+width: 371px;
+height: 56px;
+left: 187px;
+top: 440px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 45px;
+text-decoration-line: underline;
+
+color: #000000;
+}
+
+.contact-item-3 {
+    position: absolute;
+width: 371px;
+height: 63px;
+left: 187px;
+top: 525px;
+
+font-family: "Poppins";
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 45px;
+
+color: #000000;
+
+}
+
