@@ -2,6 +2,12 @@ html {
   font-size: 10px;
 }
 
+/* Hero section */
+
+.logo{
+  width: 20%;
+}
+
 /* Event Section */
 
 .events-div {
@@ -137,9 +143,9 @@ html {
     color:#666666;
 }
 
-.whatwedo-left{
+/* .whatwedo-left{
     margin-left: 10rem;
-}
+} */
 
 .icons {
   color: #fd5f00;
