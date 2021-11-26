@@ -10,9 +10,12 @@ const express = require("express"),
   dotenv = require("dotenv"),
   createSendMail = require("./mail");
 
+/*Configuring the path of the config file that stores important data */
 dotenv.config({ path: "./config.env" });
 app.set("view engine", "ejs");
 app.use(express.static("public"));
+
+/*Establishing DataBase Connection */
 
 let DataBase = process.env.DBCONNECTION;
 const DataBasePass = process.env.DBPASSWORD;
@@ -47,16 +50,20 @@ app.use(passport.session());
 app.get("/", function (req, res) {
   res.render("home");
 });
+
 app.get("/login", function (req, res) {
   res.render("login");
 });
+
 app.get("/forgotpass", function (req, res) {
   res.render("forgotpass");
 });
+
 app.post("/", function (req, res) {
   //createSendMail(req.body.email);
   res.render("login");
 });
+
 app.post("/login", function (req, res, next) {
   const user = new User({
     username: req.body.username,
@@ -85,6 +92,7 @@ app.post("/login", function (req, res, next) {
     });
   })(req, res, next);
 });
+
 app.post("/register", function (req, res) {
   var flag = 0;
   var error = new Array();
@@ -108,11 +116,12 @@ app.post("/register", function (req, res) {
         res.render("login", { error: "user already exists" });
       }
       passport.authenticate("local")(req, res, function () {
-        res.render("login", { success: "Successfully registered a new user" });
+        res.render("user", { WelcomeMessage: "Welcome " + name1 });
       });
     }
   );
 });
+
 app.get("/logout", (req, res) => {
   req.logout();
   res.redirect("/");
@@ -128,6 +137,7 @@ function isLoggedIn(req, res, next) {
 app.use(function (req, res, next) {
   res.render();
 });
+
 app.listen(process.env.PORT, function () {
   console.log("Server is running on port 3000.");
 });
