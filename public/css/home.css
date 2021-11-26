@@ -68,6 +68,79 @@ html {
   font-weight: 600;
 }
 
+
+/* What We Do section */
+
+.whatwedo{
+    margin-bottom: 10rem;
+}
+
+.about-1{
+  background-color: #fd5f00;
+  text-align: center;
+  color:white;
+  padding:5rem 1rem 5rem 1rem;
+}
+
+.about-2{
+ background-color: #0d1128;
+ text-align: center;
+ color: white;
+ padding:5rem 1rem 5rem 1rem;
+}
+
+.whatwedo-icons{
+    height: 50px;
+    margin-bottom: 1.5rem;
+}
+
+.activities-title{
+ font-size: 2.2rem;
+}
+
+.activities-text{
+    font-size: 1.6rem;
+}
+
+.icon-rounded{
+    border-radius: 50%;
+    width:90px;
+    padding:14px;
+    text-align: center;
+    height:90px;
+    background-color: #fd5f00;
+    color:#FFFFFF;
+}
+
+.whatwedo-section-title{
+    font-size: 3.2rem;
+    margin-top:7rem;
+    margin-bottom: 3rem;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+}
+
+.activities-card{
+    padding:2rem;
+}
+
+.whatwedo-title{
+   font-family: 'Poppins',sans-serif;
+   font-size: 2.0rem;
+   font-weight: 600;
+}
+
+.whatwedo-text{
+    font-family:  'Poppins',sans-serif;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    color:#666666;
+}
+
+.whatwedo-left{
+    margin-left: 10rem;
+}
+
 .icons {
   color: #fd5f00;
   margin-right: 4px;
