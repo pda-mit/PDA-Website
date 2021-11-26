@@ -651,6 +651,11 @@ h1, h2, h3, h4, h5,
  font-size: 22px;
 }
 
+.about-icons{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .activities-text{
     font-size: 16px;
 }
