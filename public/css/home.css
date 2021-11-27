@@ -89,7 +89,8 @@
 /* Hero section */
 
 .logo{
-  width: 20%;
+  width: 100%;
+  height: auto;
 }
 
 a {
@@ -649,6 +650,11 @@ h1, h2, h3, h4, h5,
 
 .activities-title{
  font-size: 22px;
+}
+
+.about-icons{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .activities-text{
