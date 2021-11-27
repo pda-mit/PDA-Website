@@ -135,7 +135,7 @@ function isLoggedIn(req, res, next) {
 
 /*404 page Error */
 app.use(function (req, res, next) {
-  res.render();
+  res.status(404).render("404Page");
 });
 
 app.listen(process.env.PORT, function () {
