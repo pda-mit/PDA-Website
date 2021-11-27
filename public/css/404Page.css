@@ -1,0 +1,8 @@
+.Content404 {
+    background-color: currentColor;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
