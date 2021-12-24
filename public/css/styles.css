@@ -26,7 +26,7 @@ body{
   color: white;
   padding: 6px 12px 6px 12px;
   width: 120px;
-  margin-left: 8%;
+  margin-left: 10%;
   margin-bottom: 5%;
   border-radius: 20px;
   background-color: #3183ff;
@@ -39,7 +39,7 @@ body{
   color: white;
   padding: 6px 12px 6px 12px;
   width: 120px;
-  margin-left: 24%;
+  margin-left: 27%;
   margin-bottom: 5%;
   background-color: #3183ff;
   border-radius: 15px;
@@ -77,12 +77,13 @@ body{
   background-color:  rgba(29, 40, 56, 0.5);
   border-radius: 15px;
   color: #616d7e;
-  height: 47.5rem;
+  height: 50rem;
   line-height: 30px;
 }
 .card-title{
   color: #d4dae2;
   font-weight: 500;
+  margin-top: 7px;
 }
 
 .carousel-control-next-icon{
@@ -176,6 +177,63 @@ body{
   }
  }
   
+@font-face {
+	font-family: "Aquire";
+	src: url(../fonts/Aquire-BW0ox.otf) format('opentype');
+	font-weight: 700;
+}
+
+.hero-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr;
+}
+
+.hero-container span {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  --hero-container-height: calc(100% / var(--hero-containers) - 1px);
+  --inverse-index: calc(calc(var(--hero-containers) - 1) - var(--index));
+  --clip-top: calc(var(--hero-container-height) * var(--index));
+  --clip-bottom: calc(var(--hero-container-height) * var(--inverse-index));
+  clip-path: inset(var(--clip-top) 0 var(--clip-bottom) 0);
+  animation: hero-container 840ms cubic-bezier(.46,.29,0,1.24) 1 backwards calc(var(--index) * 120ms), glitch 2s ease infinite 2s alternate-reverse;
+}
+
+.hero-container span:nth-child(odd) { --glitch-translate: 8px; }
+.hero-container span:nth-child(even) { --glitch-translate: -8px; }
+
+@keyframes hero-container {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%);
+    text-shadow: -2px 3px 0 cyan, 2px -3px 0 rgb(3, 3, 39);
+  };
+  60% {
+    opacity: 0.5;
+    transform: translateX(50%);
+  }
+  80% {
+    transform: none;
+    opacity: 1;
+    text-shadow: 2px -3px 0 cyan, -2px 3px 0 rgb(3, 3, 39);
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+
+@keyframes glitch {
+  0% {
+    text-shadow: -2px 3px 0 cyan, 2px -3px 0 rgb(4, 4, 36);
+    transform: translate(var(--glitch-translate));
+  }
+  2% {
+    text-shadow: 2px -3px 0 cyan, -2px 3px 0 rgb(4, 4, 36);
+  }
+  4%, 100% {  text-shadow: none; transform: none; }
+}
+
   /* bg overlay */
   
   .bg-overlay {
@@ -193,7 +251,7 @@ body{
   /* Hero */
   
   .hero {
-    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dce3647b-6179-463c-b4c8-bd642f5bb216/da4f4gg-be1f2697-69ac-4569-9c34-ac77393df366.png/v1/fill/w_1192,h_670,q_70,strp/wallpapers___cyan_abstract_polygons__black_bg__by_kaminohunter_da4f4gg-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA4MCIsInBhdGgiOiJcL2ZcL2RjZTM2NDdiLTYxNzktNDYzYy1iNGM4LWJkNjQyZjViYjIxNlwvZGE0ZjRnZy1iZTFmMjY5Ny02OWFjLTQ1NjktOWMzNC1hYzc3MzkzZGYzNjYucG5nIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.rTjpLhbJtVlXj8_hdIt0A4994rQ-A0G8G_0YCZt_1-E');
+    background-image: url(../img/hero-bg.jpg);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -202,4 +260,37 @@ body{
     position: relative;
   }
   
+  .hero-title{
+    color:white;
+    font: 700 4em/1 "Aquire";
+    font-size: 80px;
+    letter-spacing: .5rem;
+  }
 
+  .animated-text {
+    font: 700 4em/1 "Aquire";
+    letter-spacing: .5rem;
+    padding: .25em 0 .325em;
+    display: block;
+    margin: 0 auto;
+    font-size: 25px;
+    text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+    background: url(../img/animated-text-fill.png) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 80s linear infinite;
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    }
+    
+    /* Animate Background Image */
+    @-webkit-keyframes aitf {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+    }
+    
