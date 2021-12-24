@@ -1,92 +1,17 @@
 <!-- Hero section -->
-<style>
-    @import url('https://fonts.googleapis.com/css?family=Fira+Mono:400');
-​
-body{ 
-  display: flex;
-  width: 100vw;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-  background: #131313;
-  color: #fff;
-  font-size: 96px;
-  font-family: 'Fira Mono', monospace;
-  letter-spacing: -7px;
-}
-    .pda{
-  animation: glitch 1s linear infinite;
-  position: relative;
-  font-size: 96px;
-    font-family: 'Fira Mono', monospace;
-}
-
-@keyframes glitch{
-  2%,64%{
-    transform: translate(2px,0) skew(0deg);
-  }
-  4%,60%{
-    transform: translate(-2px,0) skew(0deg);
-  }
-  62%{
-    transform: translate(0,0) skew(5deg); 
-  }
-}
-
-.pda:before,
-.pda:after{
-  content: attr(title);
-  position: absolute;
-  top: 0px;
-  left: 38%;
-}
-
-.pda:before{
-  animation: glitchTop 1s linear infinite;
-  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
-}
-
-@keyframes glitchTop{
-  2%,64%{
-    transform: translate(3px,-2px);
-  }
-  4%,60%{
-    transform: translate(-2px,2px);
-  }
-  62%{
-    transform: translate(10px,-1px) skew(-13deg); 
-  }
-}
-
-.pda:after{
-  animation: glitchBotom 1.5s linear infinite;
-  clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
-  -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
-}
-
-@keyframes glitchBotom{
-  2%,64%{
-    transform: translate(-2px,0);
-  }
-  4%,60%{
-    transform: translate(-2px,0);
-  }
-  62%{
-    transform: translate(-20px,5px) skew(21deg); 
-  }
-}
-
-</style>
 <section class="hero d-flex flex-column justify-content-center align-items-center" id="home">
     <div class="bg-overlay"></div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-4 mx-auto col-5">
-                <div class="hero-text mt-4 mt-lg-5 text-center content-center">
-                    <img src="img/pda-logo.png" style="height: 40vh;">
-                    <h1 class="pda" style="color: white;" title="PDA">PDA<div>
+            <div class="col-lg-8 col-md-10 mx-auto col-12">
+                <div class="hero-text mt-4 mt-lg-1 text-center">
+                    <img src="img/pda-logo.png" style="height: 35vh;" class="mx-auto">
+                    <div class="hero-container container mx-auto mt-5">
+                        <span class="hero-title" style="--index: 0">PDA</span>
+                        <span class="hero-title" style="--index: 1">PDA</span>
+                        <span class="hero-title" style="--index: 2">PDA</span>
+                    </div>
+                    <p class="animated-text">DISCOVER YOURSELF</p>
                 </div>
             </div>
         </div>
