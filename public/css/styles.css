@@ -1,8 +1,9 @@
-/* events section */
+
 body{
   background-color: #000;
 }
 
+/* events section */
 #event-section{
   margin:30px 0 30px;
 }
@@ -77,13 +78,13 @@ body{
   background-color:  rgba(29, 40, 56, 0.5);
   border-radius: 15px;
   color: #616d7e;
-  height: 50rem;
+  height: 51rem;
   line-height: 30px;
 }
 .card-title{
   color: #d4dae2;
   font-weight: 500;
-  margin-top: 7px;
+  margin-top: 0.6rem;
 }
 
 .carousel-control-next-icon{
@@ -251,7 +252,7 @@ body{
   /* Hero */
   
   .hero {
-    background-image: url(../img/hero-bg.jpg);
+    background-image: url(../images/hero-bg.jpg);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -275,7 +276,7 @@ body{
     margin: 0 auto;
     font-size: 25px;
     text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
-    background: url(../img/animated-text-fill.png) repeat-y;
+    background: url(../images/animated-text-fill.png) repeat-y;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
