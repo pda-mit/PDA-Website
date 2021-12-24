@@ -103,3 +103,16 @@ body{
 .carousel-control-prev {
   left: -64px;
 }
+
+@media (max-width: 990px){
+  .card{
+    height: 66rem;
+    margin-bottom: 50px;
+  }
+  .viewdetails-btn{
+    margin-left: 50%;
+  }
+  #event-section{
+    margin:30px 0 70px;
+  }
+ }
