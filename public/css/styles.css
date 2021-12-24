@@ -104,13 +104,70 @@ body{
   left: -64px;
 }
 
-@media (max-width: 990px){
+/* events responsiveness */
+ @media (max-width: 1280px){
   .card{
-    height: 66rem;
+    height: 50rem;
     margin-bottom: 50px;
   }
+  .apply-btn{
+    display: inline-block;
+  }
   .viewdetails-btn{
-    margin-left: 50%;
+    display: inline-block;
+    margin-left:12%;
+  }
+  #event-section{
+    margin:30px 0 70px;
+  }
+ }
+
+ @media (max-width: 1024px){
+  .card{
+    height: 45rem;
+    margin-bottom: 50px;
+  }
+  .apply-btn{
+    display: inline-block;
+  }
+  .viewdetails-btn{
+    display: inline-block;
+    margin-left:2%;
+  }
+  #event-section{
+    margin:30px 0 70px;
+  }
+ }
+
+ @media (max-width: 800px){
+  .card{
+    height: 67rem;
+    margin-bottom: 50px;
+  }
+  .apply-btn{
+    display: inline-block;
+  }
+  .viewdetails-btn{
+    display: inline-block;
+    margin-left:44%;
+  }
+  #event-section{
+    margin:30px 0 70px;
+  }
+ }
+
+ @media (max-width: 400px){
+  .card{
+    height: 49rem;
+    margin-bottom: 40px;
+  }
+  .apply-btn{
+    display: inline-block;
+    margin-left: 4%;
+  }
+  .viewdetails-btn{
+    display: inline-block;
+    margin-left:7%;
   }
   #event-section{
     margin:30px 0 70px;
