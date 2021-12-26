@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -95,7 +96,7 @@
             
         </div>
         <div class="top_scroll">
-            <span onclick="document.body.scrollTop = 0;document.documentElement.scrollTop = 0;"><i class="fa fa-arrow-circle-up"></i></span>
+            <span onclick="(function(){window.scrollTo({top: 0,left: 0,behavior: 'smooth'})})();"><i class="fa fa-arrow-circle-up"></i></span>
         </div>
         <p class="footer-copyrights">Copyright &copy; Personality Development Association MIT 2021</p>
     </footer>
