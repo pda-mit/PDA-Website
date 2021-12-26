@@ -162,6 +162,11 @@
   margin-bottom: 5px;
 }
 
+.footer-distributed .footer-icons a:hover{
+  background-color: white;
+  color: #33383b;
+}
+
 .footer-sign-up {
   padding: 14px 30px;
   border-radius: 14px;
