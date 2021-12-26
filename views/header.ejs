@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Navbar Transparent to Solid on Scroll Example</title>
+    <meta name="author" content="Codeconvey" />
+    
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="public/css/headerstyle.css">
+    
+    <!--Only for demo purpose - no need to add.-->
+    <link rel="stylesheet" type="text/css" href="public/css/headerdemo.css" />
+	
+</head>
+<body>
+		
+
+
+<section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+              
+<!-- partial:index.partial.html -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<div class="navbar navbar-fixed-top container-fluid" id="navbar">
+  	 <div class="navbar-header">
+      <button type="button" class="navbar-toggle navbar-default" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><img src="public/img/pda-logo.png"></img></a>
+    </div>
+    <div class="collapse navbar-right navbar-collapse" id="myNavbar">
+    	<ul class="nav navbar-nav">
+    		<li><h1><a href="./home" id="link">Home</a></h1></li>
+    		<li><h1><a href="/" id="link">About</a></h1></li>
+    		<li><h1><a href="/" id="link">Events</a></h1></li>
+    		<li><h1><a href="./contact" id="link">Contact</a></h1></li>
+    		<li><h1><a href="./login" id="link">Login/Sign up</a></h1></li>
+    	</ul>
+    </div>
+  </div>
+<!-- partial -->
+    		
+           
+    		</div>
+		</div>
+    </div>
+</section>
+     
+<script>
+    window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    
+    document.getElementById("navbar").style.background = "#501e27";
+  } else {
+   
+    document.getElementById("navbar").style.background = "none";
+  }
+}
+</script>
+    
+    
+   <!-- ANALYTICS -->
+
+	</body>
+</html>
