@@ -60,16 +60,21 @@
   color: #5383d3;
 }
 
+/*Headings of all columns*/
+
+.footer-distributed .footer-center-1 h3,
+.footer-distributed .footer-center-2 h3,
+.footer-distributed .footer-right h3{
+  color: #ffffff;
+  font-size: 20px;
+}
+
 /* Footer center-1 for links */
 
 .footer-distributed .footer-center-1{
   width: 15%;
 }
 
-.footer-distributed .footer-center-1 h3{
-  color: #ffffff;
-  font-size: 20px;
-}
 .footer-distributed .footer-links {
   color: #616d7e;
   margin: 12px 0 12px;
@@ -92,6 +97,10 @@
 
 .footer-distributed .footer-center-2 {
   width: 30%;
+}
+.footer-distributed .footer-center-2 h3
+{
+  margin-left: 1vw;
 }
 
 .footer-distributed .footer-center-2 i {
