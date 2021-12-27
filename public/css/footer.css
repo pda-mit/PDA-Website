@@ -10,10 +10,7 @@
   width: 100%;
   text-align: left;
   font: bold 16px sans-serif;
-
   padding: 55px 50px;
-  margin-top: 50px;
-  /* margin: 0; */
 }
 
 .footer-distributed .footer-left,
@@ -44,8 +41,8 @@
 
 .footer-distributed .logo
 {
-  height:5vh;
-  width: 5vw;
+  width: 50px;
+  height:auto;
   display: inline-block;
 }
 
@@ -97,6 +94,10 @@
 
 .footer-distributed .footer-center-2 {
   width: 30%;
+}
+
+.footer-distributed .footer-center-2 h3{
+  margin-bottom: 2vh;
 }
 
 .footer-distributed .footer-center-2 i {
@@ -162,6 +163,11 @@
   margin-bottom: 5px;
 }
 
+.footer-distributed .footer-icons a:hover{
+  background-color: white;
+  color: #33383b;
+}
+
 .footer-sign-up {
   padding: 14px 30px;
   border-radius: 14px;
@@ -203,6 +209,7 @@
   color: #616d7e;
   text-align: center;
   line-height: 50px;
+  margin-top: 25vh;
 }
 
 .footer-distributed .top_scroll span:hover {
@@ -223,14 +230,24 @@
     margin-bottom: 30px;
     text-align: center;
   }
+  .footer-distributed .top_scroll span{
+    margin-top: 0vh;
+  }
   .footer-distributed .footer-center-2 {
     display: block;
     width: 75%;
     margin-bottom: 30px;
     margin-left: auto;
   }
+  .footer-distributed .footer-left h3{
+    font-size: 30px;
+  }
   .footer-distributed .footer-center-2 h3{
-    margin-left: 17%;
-    margin-bottom: 2vh;
+    margin-left: 17%;    
+  }
+  .footer-distributed .logo
+  {
+    width: 40px;
+    height:auto;
   }
 }
