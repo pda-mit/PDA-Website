@@ -16,8 +16,7 @@
 .footer-distributed .footer-left,
 .footer-distributed .footer-center-1,
 .footer-distributed .footer-center-2,
-.footer-distributed .footer-right,
-.footer-distributed .top_scroll {
+.footer-distributed .footer-right{
   display: inline-block;
   vertical-align: top;
 }
@@ -161,6 +160,7 @@
 
   margin-right: 5px;
   margin-bottom: 5px;
+  
 }
 
 .footer-distributed .footer-icons a:hover{
@@ -191,28 +191,26 @@
 
 /*Copyrights section*/
 .footer-distributed .footer-copyrights {
+  display: inline-block;
   color: #8f9296;
   font-size: 14px;
   font-weight: normal;
   margin-top: 4vh;
+  width: 95%;
   text-align: center;
 }
 /*top scroll*/
-.footer-distributed .top_scroll{
-  width:3%;
-}
-.footer-distributed .top_scroll span {
+
+.footer-distributed .top_scroll {
   display: inline-block;
   width: 50px;
   height: 50px;
   font-size: 40px;
-  color: #616d7e;
-  text-align: center;
   line-height: 50px;
-  margin-top: 25vh;
+  color: #616d7e;
 }
 
-.footer-distributed .top_scroll span:hover {
+.footer-distributed  .top_scroll :hover {
   color: white;
 }
 
@@ -224,14 +222,12 @@
   .footer-distributed .footer-left,
   .footer-distributed .footer-center-1,
     .footer-distributed .footer-right,
-  .footer-distributed .top_scroll {
+    .footer-distributed .top_scroll,
+    .footer-distributed .footer-copyrights{
     display: block;
     width: 100%;
     margin-bottom: 30px;
     text-align: center;
-  }
-  .footer-distributed .top_scroll span{
-    margin-top: 0vh;
   }
   .footer-distributed .footer-center-2 {
     display: block;
