@@ -7,27 +7,23 @@
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900');
 
-
+body {
+  background-color: #000;
+}
 
 html {
-  box-sizing: border-box;
+  padding:0px;
+  margin:0px;
+  width:100%;
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-article, header, section, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+ article, header, section, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
     display: block;
-}
-body {
-    
-    color: #222;
-    font-size: 100%;
-    line-height: 24px;
-    margin: 0;
-	padding:0;
-	font-family: "Raleway",sans-serif;
-}
+} 
+
 a{
 	font-family: "Raleway",sans-serif;
   color:black;
@@ -39,11 +35,9 @@ a{
 #link{
   color:white;
   text-decoration:none;
+
 }
-img {
-  height:110px;
-  width:140px;
-}
+
 
 a:hover, a:focus {
 	color:red;
@@ -52,9 +46,7 @@ a:hover, a:focus {
   text-decoration:none;
 }
 section {
-    float: left;
     width: 100%;
-	padding-bottom:3em;
 }
 h2 {
     color: #1a0e0e;
@@ -82,7 +74,7 @@ h2 span {
 *********************************************************/
 
 .ScriptTop {
-    background: #fff none repeat scroll 0 0;
+    background: rgb(5, 5, 5) none repeat scroll 0 0;
     float: left;
     font-size: 0.69em;
     font-weight: 600;
@@ -132,7 +124,7 @@ h2 span {
 	text-align:center;
 }
 .Scriptcontent{
-	line-height:28px;	
+	line-height:28px;
 }
 .ScriptHeader h1{
 	font-family: "brandon-grotesque", "Brandon Grotesque", "Source Sans Pro", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
@@ -158,7 +150,6 @@ h2 span {
     padding: 0;
     font-size: 22px;
     opacity: 0.7;
-    margin-top: 5px;
 
 }
 .ScriptHeader span {
@@ -272,7 +263,3 @@ h2 span {
 	}
 	
 }
-
-
-
-
