@@ -7,7 +7,10 @@ body {
 /* events section */
 
 #event-section {
-    margin: 30px 0 30px;
+    margin: 0;
+    padding-top:30px;
+    padding-bottom:30px;
+    background-color:black;
 }
 
 .events_heading {
@@ -193,8 +196,9 @@ body {
 
 .hero-container {
     display: grid;
-    justify-content: center;
+    justify-content: left;
     grid-template-columns: 1fr;
+    
 }
 
 .hero-container span {
