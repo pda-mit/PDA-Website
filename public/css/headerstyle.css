@@ -23,20 +23,20 @@ body {
     font-family: Lithos Pro;
     color: #fff;
     padding: 0px 0px;
-    height:140px;
+    height:70px;
     /* width:700px; */
   }
   
   .nav li{
-    padding-top:30px;
+    padding-bottom:2px;
     padding-left:20px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 13px;
   }
   .nav li:after{
     content: '';
     display: block;
-      border-bottom: 2px solid #38fd07;
+      border-bottom: 2px solid #0dcaf0;
       transform: scaleX(0);
       transition: .2s ease-in-out;
   }
