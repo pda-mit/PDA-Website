@@ -6,84 +6,65 @@ body {
 
 /* aboutus section*/
 body{
-    background-color: #000000;
- }
- .responsive {
-  width: 100%;
-  height: auto;
-}
-.container {
-  position: relative;
-  width: 100%;
-}
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.overlay {
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  right: 0;
-  background-color: #000000;
-  overflow: hidden;
-  width: 100%;
-  height:0;
-  transition: .7s ease;
-}
-
-.container:hover .overlay {
-  bottom: 0;
-  height: 100%;
-}
-
-
-#h2about{
-        margin-left:42%;
-		color: #fff;
-		font-size: 40px;
-		font-weight: 600;
-		font-family: "Poppins", sans-serif;
-		background: linear-gradient(to right, white 25%, #2de3f0 40%, white 30%);
-		background-size: auto auto;
-		background-clip: border-box;
-		background-size: 200% auto;
-		color: #fff;
-		background-clip: text;
-		text-fill-color: transparent;
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		animation: textclip 7s ease-in-out infinite;
-		display: inline-block;
-	
-}
-
-@keyframes textclip {
-	to {
-		background-position: 200% center;
-	}
-}
-
- .pabout{
-    color: rgb(156, 163, 175);
-    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   width:48%;
-   height:60%;
-   float:left;
-   margin-left:2%;
-   color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
- }
+    background-color:black;
+    }
+    
+    video{
+    
+            max-width: 100%;
+            height: 500px;
+            width: 800px;
+            align-self: center;
+            margin-top: 20%;
+    }
+    
+    
+    
+    
+    #h1about{
+                   margin-left:42%;
+            color: #fff;
+            font-size: 40px;
+            font-weight: 600;
+            font-family: "Josefin Sans", sans-serif;
+            background: linear-gradient(to right, white 25%, #00cccc 40%, white 30%);
+            background-size: auto auto;
+            background-clip: border-box;
+            background-size: 200% auto;
+            color: #fff;
+            background-clip: text;
+            text-fill-color: transparent;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: textclip 4s ease-in-out infinite;
+            display: inline-block;
+        
+    }
+    .h2about{
+        color: #fff;
+        font-family: "Poppins", sans-serif;
+        font-size: 25px;
+        margin-left:2%;
+    }
+    
+    @keyframes textclip {
+        to {
+            background-position: 200% center;
+        }
+    }
+    
+     .pabout{
+        font-size: 18px;
+        color: rgb(156, 163, 175);
+        font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        width:90%;
+        height:60%;
+       float:left;
+       margin-left:2%;
+       
+     }
+    
+     
 
 /* events section */
 
