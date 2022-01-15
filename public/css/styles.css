@@ -7,10 +7,7 @@ body {
 /* events section */
 
 #event-section {
-    margin: 0;
-    padding-top:30px;
-    padding-bottom:30px;
-    background-color:black;
+    margin: 30px 0 30px;
 }
 
 .events_heading {
@@ -83,7 +80,7 @@ body {
     background-color: rgba(29, 40, 56, 0.5);
     border-radius: 15px;
     color: #616d7e;
-    height: 74rem;
+    height: 51rem;
     font-size: 17px;
     line-height: 30px;
 }
@@ -196,9 +193,8 @@ body {
 
 .hero-container {
     display: grid;
-    justify-content: left;
+    justify-content: center;
     grid-template-columns: 1fr;
-    
 }
 
 .hero-container span {
