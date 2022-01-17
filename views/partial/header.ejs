@@ -34,5 +34,65 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
         <!-- fontawesome icon script -->
         <script src="https://kit.fontawesome.com/cb38b9c56f.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="css/headerstyle.css">
+    
+        <!--   Only for demo purpose - no need to add.-->
+        <link rel="stylesheet" type="text/css" href="css/headerdemo.css" />
     </head>
-    <body>
+    <body style="background-color: black;">
+        <section>
+            <div class="rt-container">
+                  <div class="col-rt-12">
+                       <div class="Scriptcontent">
+                      
+                        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <div class="navbar navbar-fixed-top container-fluid" id="navbar">
+               <div class="navbar-header" style="padding-right:400px;">
+              <button type="button" class="navbar-toggle navbar-default" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+              </button>
+              </div>
+             
+            <div class="collapse navbar-right navbar-collapse" id="myNavbar">
+                <a class="navbar-brand" href="#"><img src="images/pda-logo.png" style="height:52px;
+                    width:65px;margin-top:-5px"></img></a>
+                <ul class="nav navbar-nav" style="display: flex;flex-direction: row;justify-content:space-between;float: right;">
+
+                    <li><h1><a href="./home" id="link">Home</a></h1></li>
+                    <li><h1>|</h1></li> 
+                    <li><h1><a href="./aboutus" id="link">About</a></h1></li>
+                    <li><h1>|</h1></li>
+                    <li><h1><a href="./events" id="link">Events</a></h1></li>
+                    <li><h1>|</h1></li>
+                    <li><h1><a href="./contact" id="link">Contact</a></h1></li>
+                    <li><h1>|</h1></li>
+                    <li><h1><a href="./login" id="link">Login/Sign up</a></h1></li>
+                </ul>
+            </div>
+          </div>
+                    
+                   
+                    </div>
+                </div>
+            </div>
+        </section>
+             
+        <script>
+            window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+          if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+            
+            document.getElementById("navbar").style.background = "black";
+          } else {
+           
+            document.getElementById("navbar").style.background = "none";
+          }
+        }
+        </script>
