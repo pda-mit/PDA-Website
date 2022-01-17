@@ -1,85 +1,96 @@
-body {
-  background-color: #000;
-}
-html {
-  background-color: #000;
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900');
+.link {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    outline: none;
+    font-size: 20px;
 }
 
-  
-  .navbar{
-  position: fixed;
-  transition: 1s;
-  
-  }
-  .navbar-brand{
+.link:hover,
+.link:focus {
+    color: #0dcaf0;
+    outline: none;
+    opacity: 5;
+    text-decoration: none;
+}
+
+.navbar {
+    position: fixed;
+    transition: 1s;
+}
+
+.navbar-brand {
     color: #fff;
     font-size: 45px;
     font-family: Germania;
     cursor: pointer;
-    /* float:left; */
-  }
-  .icon-bar{
-  background-color: #000;
-  
-  }
-  .nav{
+}
+
+.icon-bar {
+    background-color: #000;
+}
+
+.nav {
     font-family: Lithos Pro;
     color: #fff;
     padding: 0px 0px;
-    height:70px;
-    /* width:700px; */
-  }
-  
-  .nav li{
-    padding-bottom:2px;
-    padding-left:20px;
+    height: 70px;
+}
+
+.nav li {
+    padding-bottom: 2px;
+    padding-left: 20px;
     cursor: pointer;
     font-size: 13px;
-  }
-  .nav li:after{
+}
+
+.link:after {
     content: '';
     display: block;
-      border-bottom: 2px solid #0dcaf0;
-      transform: scaleX(0);
-      transition: .2s ease-in-out;
-  }
-  .nav li:hover:after{
-     transform: scaleX(1);
-  }
-  .para{
+    border-bottom: 2px solid #0dcaf0;
+    transform: scaleX(0);
+    transition: .2s ease-in-out;
+}
+
+.link:hover:after {
+    transform: scaleX(1);
+}
+
+.para {
     min-height: 500px;
-  }
-  .para h3{
+}
+
+.para h3 {
     text-align: center;
     margin-top: 15%;
     color: #fff;
     font-family: nyala;
     font-size: 44px;
-  }
-   body::-webkit-scrollbar-track
-  {
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-  
-  }
-  body::-webkit-scrollbar
-  {
-  width: 14px;
-  }
-  
-  body::-webkit-scrollbar-thumb
-  {
-  
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.5);
-  background: grey;
-  } 
-  @media(max-width: 720px){
-   body{
-  background-size: 100% 100%;
-  } 
-  .navbar-collapse{
-  background: transparent;
-  }
-  .para{
-  min-height: 800px;
-  }
-  }
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar {
+    width: 14px;
+}
+
+body::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .5);
+    background: grey;
+}
+
+@media(max-width: 720px) {
+    body {
+        background-size: 100% 100%;
+    }
+    .navbar-collapse {
+        background: transparent;
+    }
+    .para {
+        min-height: 800px;
+    }
+}
